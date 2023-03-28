@@ -23,3 +23,6 @@
   - Wifi
   - Airdrop
   - Drag and drop - i had some issues with my machine dragging and not dropping. After serveral reboots it resolved itself.
+
+## Troubleshooting:
+  - Unable to boot due to bad kexts: plug in your bootable usb > set boot drive to usb in bios > choose the drive that has mac installed > you should be able to boot into desktop now.
