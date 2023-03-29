@@ -23,6 +23,8 @@
   - Bluetooth
   - Wifi
   - Airdrop
+  - Handoff
+  - Sidecar
   - Drag and drop - i had some issues with my machine dragging and not dropping. After serveral reboots it resolved itself.
 
 ## Troubleshooting:
