@@ -29,4 +29,4 @@
 
 ## Troubleshooting:
   - Unable to boot due to bad kexts: plug in your bootable usb > set boot drive to usb in bios > choose the drive that has mac installed > you should be able to boot into desktop now.
-  - From my research seems like the bluetooth on Fenvi T919 operates on 2.4ghz band. Hence, some users has issues with spotty bluetooth and or slow wifi speeds which using 2.4ghz wifi + bluetooth simultaneously. The proposed solution is to use 5ghz band wifi and bluetooth issues should be fixed. Pending testing on this hypothesis.
+  - From my research seems like the bluetooth on Fenvi T919 operates on 2.4ghz band. Hence, some users has issues with spotty bluetooth and or slow wifi speeds when using 2.4ghz wifi + bluetooth simultaneously. The proposed solution is to use 5ghz band wifi and bluetooth issues should be fixed. Pending testing on this hypothesis.
