@@ -6,11 +6,11 @@
 
 ## Post-installation:
    1. Remove verbose boot:
-      Remove -v in boot-args: -v alcid=11 igfxonln=1 watchdog=0 agdpmod=pikera dk.e1000=0 e1000=0
+      Remove -v in boot-args (under NVRAM): -v alcid=11 igfxonln=1 watchdog=0 agdpmod=pikera dk.e1000=0 e1000=0
       [image](https://user-images.githubusercontent.com/60392496/227962630-68ec4706-1e5f-4983-8c22-fc56ababb9fc.png)
 
       ![image](https://user-images.githubusercontent.com/60392496/227962586-7b7329e9-f3d2-4a97-bae0-04e302548f56.png)
-   2. Remove opencore bootloader for fast boot into apple logo: 
+   2. Remove opencore bootloader for fast boot into apple logo (under MISC): 
       Set showpicker=false 
       Should you have issues and need bootloader or boot in verbose refer to troubleshooting section under "Unable to boot due to bad kext".
       
