@@ -21,13 +21,15 @@
    - Audio
    - All usb slots works
 
-## Not working (but can be solved with wifi card fenvi t919):
+## Not working (but can be solved with wifi card fenvi t919:
   - Bluetooth
   - Wifi
   - Airdrop
   - Handoff
   - Sidecar
   - Drag and drop - i had some issues with my machine dragging and not dropping. After serveral reboots it resolved itself.
+  
+  * currently testing: BCM943224 - from old A1466 macbook air with pciebt2 adapter https://shopee.sg/-risingmp-BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M.2-i.289662226.17292887793)
 
 ## Troubleshooting:
   - Unable to boot due to bad kexts: plug in your bootable usb > set boot drive to usb in bios > choose the drive that has mac installed > you should be able to boot into desktop now.
