@@ -10,7 +10,10 @@
       [image](https://user-images.githubusercontent.com/60392496/227962630-68ec4706-1e5f-4983-8c22-fc56ababb9fc.png)
 
       ![image](https://user-images.githubusercontent.com/60392496/227962586-7b7329e9-f3d2-4a97-bae0-04e302548f56.png)
-
+   2. Remove opencore bootloader for fast boot into apple logo: 
+      Set showpicker=false 
+      Should you have issues and need bootloader or boot in verbose refer to troubleshooting section under "Unable to boot due to bad kext".
+      
 ## Working: 
    - Sleep
    - iservices
