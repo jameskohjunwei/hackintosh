@@ -1,5 +1,7 @@
 # hackintosh-coffeelake
  EFI folder for CoffeeLake i7-8700K machines
+ 
+ ![2023-03-27_21-54-04](https://user-images.githubusercontent.com/60392496/228409475-e186f9b7-a6fc-4d56-9238-fff98478b5a4.png)
 
 ## Installation guide: 
   https://www.youtube.com/watch?v=4ryY9GTawQM&ab_channel=BarTechTV![image](https://user-images.githubusercontent.com/60392496/227962404-b8bdfc4c-15d3-45cc-b1b1-bbe21d823b61.png)
