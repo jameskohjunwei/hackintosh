@@ -27,7 +27,7 @@
   - Airdrop
   - Handoff
   - Sidecar
-  - Drag and drop - i had some issues with my machine dragging and not dropping. After serveral reboots it resolved itself.
+  - Drag and drop - i had some issues with my machine dragging and not dropping - solved by changing the logi adapter to motherboard's usb 3.0 slot.
   
   * tested: fenvi t919 card doesn't work well for me. Bluetooth doesn't work at all despite the right kext, and wifi is really slow for 5ghz. 
   * currently testing: BCM943224 - from old A1466 macbook air with pciebt2 adapter https://shopee.sg/-risingmp-BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M.2-i.289662226.17292887793)
