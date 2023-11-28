@@ -19,6 +19,7 @@
    2. Remove opencore bootloader for fast boot into apple logo (under MISC): 
       Set showpicker=false 
       Should you have issues and need bootloader or boot in verbose refer to troubleshooting section under "Unable to boot due to bad kext".
+   3. Mount EFI using ESP PRO and follow steps in this video : https://www.youtube.com/watch?v=GGy3V3YT6tI&ab_channel=EverythingTech
       
 ## Working: 
    - Sleep
