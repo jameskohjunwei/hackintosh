@@ -6,6 +6,12 @@
 ## Installation guide: 
   https://www.youtube.com/watch?v=4ryY9GTawQM&ab_channel=BarTechTV![image](https://user-images.githubusercontent.com/60392496/227962404-b8bdfc4c-15d3-45cc-b1b1-bbe21d823b61.png)
 
+## Bios: 
+   1. vt-d | disabled
+   2. CSM | enabled, UEFI only and windows UEFI 
+   3. Secure boot | disabled, erase keys if required to disable
+   4. [Critical] remove dedicated graphics card if you see "unsupported PCH" error in logs
+
 ## Post-installation:
    1. Remove verbose boot:
       Remove -v in boot-args (under NVRAM):
