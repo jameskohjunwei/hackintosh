@@ -27,25 +27,25 @@
       
 ## Working: 
    - Sleep
+   - Bluetooth
+   - Wifi
    - iservices
    - Ethernet
    - Audio
    - All usb slots works
 
 ## Not working (but can be solved with wifi card):
-  - Bluetooth
-  - Wifi
   - Airdrop
   - Handoff
   - Sidecar
-  - Drag and drop - i had some issues with my machine dragging and not dropping - solved by changing the logi adapter to motherboard's usb 3.0 slot.
+  - Drag and drop - I had some issues with my machine dragging and not dropping - solved by changing the logi adapter to motherboard's usb 3.0 slot.
   
-  * tested: fenvi t919 card doesn't work well for me. Bluetooth doesn't work at all despite the right kext, and wifi is really slow for 5ghz. 
-  * currently testing: BCM943224 - from old A1466 macbook air with pciebt2 adapter https://shopee.sg/-risingmp-BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M.2-i.289662226.17292887793)
+  * (test completed): fenvi t919 card doesn't work well for me. Bluetooth doesn't work at all despite the right kext, and wifi is really slow for 5ghz. 
+  * (test completed): BCM943224 - from old A1466 macbook air with pciebt2 adapter. This works well for me, but airdrop doesn't work. https://shopee.sg/-risingmp-BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M.2-i.289662226.17292887793)
 
 ## Troubleshooting:
   - Unable to boot due to bad kexts: plug in your bootable usb > set boot drive to usb in bios > choose the drive that has mac installed > you should be able to boot into desktop now.
-  - From my research seems like the bluetooth on Fenvi T919 operates on 2.4ghz band. Hence, some users has issues with spotty bluetooth and or slow wifi speeds when using 2.4ghz wifi + bluetooth simultaneously. The proposed solution is to use 5ghz band wifi and bluetooth issues should be fixed. Pending testing on this hypothesis.
+  - From my research seems like the bluetooth on Fenvi T919 operates on 2.4ghz band. Hence, some users has issues with spotty bluetooth and or slow wifi speeds when using 2.4ghz wifi + bluetooth simultaneously. The proposed solution is to use 5ghz band wifi and bluetooth issues should be fixed. Test completed, Fenvi doesn't work for me.
   
 ## Homebrew + vscode issues:
   - Whenever you restore your mac from time machine there might be issues to your coding env. Refer to this and install xcode again https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a
