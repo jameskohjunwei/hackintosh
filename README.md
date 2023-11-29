@@ -19,8 +19,9 @@
    2. Remove opencore bootloader for fast boot into apple logo (under MISC): 
       Set showpicker=false 
       Should you have issues and need bootloader or boot in verbose refer to troubleshooting section under "Unable to boot due to bad kext".
-   3. Install OC configurator on your hackintosh. On the top right toolbar, mount the disk that you installed macos.
+   3. Boot without install drive. Install OC configurator on your hackintosh. On the top right toolbar, mount the disk that you installed macos.
       ![image](https://github.com/jameskohjunwei/hackintosh/assets/60392496/e15edfa2-46ed-4154-bc9b-149ba5b5b875)
+
       Once mounted, you will see a EFI folder, delete everything in it, drag the full EFI folder from your thumb drive into this EFI directory
       ![image](https://github.com/jameskohjunwei/hackintosh/assets/60392496/9ee58f9e-e537-4477-8f27-3874c8d6283d)
       
