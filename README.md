@@ -8,7 +8,7 @@
 
 ## Bios: 
    1. vt-d | disabled
-   2. CSM | enabled, UEFI only and windows UEFI 
+   2. CSM | enabled, UEFI only and in "other OS" mode
    3. Secure boot | disabled, erase keys if required to disable
    4. [Critical] remove dedicated graphics card if you see "unsupported PCH" error in logs
 
