@@ -49,3 +49,6 @@
   - make sure you look at opt and local folders to see all brew is uninstalled. 
   - brew help in terminal to see if brew exists.
   - Install brew again, in intel macs it /HomeBrew will appear in /local folder.
+
+## Tools:
+  - OC Configurator (to mount boot drive, update and validate kexts, and find out what kexts work for your hardware)
